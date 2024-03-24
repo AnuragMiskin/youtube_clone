@@ -61,3 +61,35 @@ body{
     display: flex;
     flex-direction: column;
 }
+
+.video-title{
+    font-size: 1.1rem;
+    text-decoration: none;
+    margin-bottom: .5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.channel-name{
+    margin-bottom: .1rem;
+    text-decoration: none;
+    transition: 150ms;
+}
+
+.channel-name:hover{
+    color: #111;
+}
+
+.channel-name,
+.video-metadata{
+    color: #555;
+}
+
+.special-section-title{
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -.5rem 0;
+}
+
