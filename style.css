@@ -93,3 +93,30 @@ body{
     margin: -.5rem 0;
 }
 
+.close{
+    border: none;
+    padding: 0;
+    background: none;
+    font-size: 2rem;
+    color: #555;
+    cursor: pointer;
+}
+
+.videos{
+    background-color: #F9F9F9;
+}
+
+.categories{
+    padding: 1rem 2rem;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;    
+}
+
+.category-section{
+    display: flex;
+    overflow: hidden;
+}
+
+.category{
+    margin-right: 1rem;
+}
