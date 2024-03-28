@@ -142,3 +142,13 @@ body{
 .category:last-child{
     margin-right: 0;
 }
+.header{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.youtube-logo{
+    height: 20px;
+}
